@@ -26,6 +26,7 @@ def maze_walk(maze, maze_dimension):
                 elif direction == "up":
                     column -= 1
                     direction = "left"
+                # Direction left
                 else:
                     row -= 1
                     direction = "up"
@@ -40,6 +41,7 @@ def maze_walk(maze, maze_dimension):
                 elif direction == "up":
                     column += 1
                     direction = "left"
+                # Direction left
                 else:
                     row += 1
                     direction = "down"
