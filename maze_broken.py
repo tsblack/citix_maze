@@ -29,7 +29,7 @@ def maze_walk(maze, maze_dimension):
                 else:
                     row -= 1
                     direction = "up"
-            # Finding a \ in maze position
+            # Finding a / in maze position
             else:
                 if direction == "down":
                     column -= 1
